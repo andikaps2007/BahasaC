@@ -1,0 +1,26 @@
+/* CSS: Gaya halaman */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(to right, #74ebd5, #9face6);
+    margin: 0;
+}
+
+#nama {
+    font-size: 2.5em;
+    color: #ffffff;
+    background-color: rgba(0,0,0,0.3);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
+}
+
+#nama:hover {
+    transform: scale(1.05);
+    background-color: rgba(0,0,0,0.5);
+}
