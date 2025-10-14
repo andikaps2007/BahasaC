@@ -1,3 +1,3 @@
 document.addEventListener("DOMContentLoaded", () => {
-  console.log("Website profil Andika siap!");
+  console.log("Halaman data diri Andika aktif!");
 });
